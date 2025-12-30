@@ -1,0 +1,9 @@
+name: Hospitex_Patient
+description: 'Provides the Patient custom entity for the Hospitex hospital management system.'
+package: Custom
+type: module
+core_version_requirement: ^10
+version: '1.0'
+datestamp: 1622644079
+'interface translation project': Hospitex_Patient
+'interface translation server pattern': modules/custom/Hospitex_Patient/translations/Hospitex_Patient-ar.po
