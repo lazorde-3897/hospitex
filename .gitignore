@@ -1,0 +1,36 @@
+# Drupal core.
+/web/core
+
+# Core's dependencies are managed with Composer.
+/vendor
+/private
+
+# Contrib Modules & Themes & Profiles
+/web/modules/contrib
+/web/themes/contrib
+/web/profiles/contrib
+
+# Sites
+#/web/sites/
+
+# Ignore configuration files that may contain sensitive information.
+/web/sites/*/settings*.php
+/web/sites/*/services*.yml
+
+# Ignore paths that contain user-generated content.
+/web/sites/*/files
+/web/sites/*/private
+
+# Don't ignore the default settings.
+!/web/sites/default/settings.php
+
+# Idea from PHPStorm
+*.idea/*
+
+# Netbeans
+nbproject/
+
+# DS_Store
+*.DS_Store
+/.editorconfig
+/.gitattributes
