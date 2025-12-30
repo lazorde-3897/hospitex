@@ -1,0 +1,14 @@
+uuid: 403ed2d0-d258-4a3c-a5f2-9b9b40b48c10
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.nurse
+  module:
+    - user
+id: user_add_role_action.nurse
+label: 'Add the Nurse role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: nurse

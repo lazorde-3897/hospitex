@@ -1,0 +1,14 @@
+uuid: 96d76754-1b8e-420c-9187-634b482862cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.hospital_admin
+  module:
+    - user
+id: user_remove_role_action.hospital_admin
+label: 'Remove the Hospital Admin role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: hospital_admin

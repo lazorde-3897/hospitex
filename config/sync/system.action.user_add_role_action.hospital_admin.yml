@@ -1,0 +1,14 @@
+uuid: 014bf1e3-ac5c-4df2-9219-2c74be63e9fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.hospital_admin
+  module:
+    - user
+id: user_add_role_action.hospital_admin
+label: 'Add the Hospital Admin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: hospital_admin

@@ -1,0 +1,9 @@
+uuid: 367c1b1e-c77f-43b3-a6e0-5ce500ffc332
+langcode: en
+status: true
+dependencies: {  }
+id: receptionist
+label: Receptionist
+weight: 8
+is_admin: null
+permissions: {  }

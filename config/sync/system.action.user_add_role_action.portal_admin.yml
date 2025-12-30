@@ -1,0 +1,14 @@
+uuid: e56abdfd-689d-44ba-bf11-e2d1458513ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.portal_admin
+  module:
+    - user
+id: user_add_role_action.portal_admin
+label: 'Add the Portal Admin role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: portal_admin

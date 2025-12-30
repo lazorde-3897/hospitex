@@ -1,0 +1,9 @@
+uuid: 8cd13c74-cb85-4b8d-861e-5d2be793f44a
+langcode: en
+status: true
+dependencies: {  }
+id: nurse
+label: Nurse
+weight: 7
+is_admin: null
+permissions: {  }

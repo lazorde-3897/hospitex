@@ -1,0 +1,9 @@
+uuid: 23cd1098-e027-4ce1-8dbd-9399c8cda939
+langcode: en
+status: true
+dependencies: {  }
+id: portal_admin
+label: 'Portal Admin'
+weight: 4
+is_admin: null
+permissions: {  }

@@ -1,0 +1,9 @@
+uuid: 53459e51-c14e-46d0-aeac-d8245fb2ddf0
+langcode: en
+status: true
+dependencies: {  }
+id: hospital_admin
+label: 'Hospital Admin'
+weight: 5
+is_admin: null
+permissions: {  }
