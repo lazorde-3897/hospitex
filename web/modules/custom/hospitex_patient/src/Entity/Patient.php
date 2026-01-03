@@ -20,7 +20,8 @@ use Drupal\Core\Field\BaseFieldDefinition;
  *     "uuid" = "uuid"
  *   },
  *   handlers = {
- *     "storage" = "Drupal\Core\Entity\Sql\SqlContentEntityStorage"
+ *     "storage" = "Drupal\Core\Entity\Sql\SqlContentEntityStorage",
+ *     "access" = "Drupal\hospitex_patient\PatientAccessControlHandler"
  *   },
  *   admin_permission = "administer hospitex patient entities"
  * )
